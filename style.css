@@ -1,0 +1,71 @@
+h1{
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+
+body{
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34 ,34 ,34 , 0.6)
+        ),
+         url(images/tiger.PNG);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: double red;
+}
+
+.top{
+    background-color: red;
+    height: 1.875rem;
+}
+
+.bottom{
+    background-color: red;
+    height: 0.625rem;
+}
+
+.pic1{
+    height: 7.5rem;
+    
+}
+
+.pic2{
+    height: 7.5rem;
+    
+}
+
+.pic3{
+    height: 7.5rem;
+}
+
+.pic4{
+    height: 7.5rem;
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    h1{
+        color: red;
+        font-size: 20px;
+    }
+    h2{
+        color: red;
+        font-size: 20px;
+    }
+    body{
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+        ),
+        url(images/tiger.PNG);
+    background-size: cover;
+    position: relative;
+    border: double red; height:auto
+    }
+}
